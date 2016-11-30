@@ -1,0 +1,72 @@
+body {
+  background: #EBEBEB;
+  /*background-image: url("images/free_country_usa.png");*/
+}
+
+#free_country {
+  position: relative;
+  height: 80%;
+  width: 80%;
+  margin-left:auto;
+  margin-right:auto;
+  z-index: 1;
+  opacity: .4;
+}
+
+.top {
+  text-align: center;
+}
+
+.quiz_container {
+  z-index: 9;
+}
+
+h1{
+  /*font-size: 16em;*/
+  text-align: center;
+  font-family: "Comfortaa","Chelsea Market", helvetica;
+  font-weight: bold;
+  color: #3251FC;
+  padding-bottom: 25px;
+}
+
+
+.container {
+  width:75%;
+  max-width: 960px;
+  margin-left:auto;
+  margin-right:auto;
+  overflow:hidden;
+
+}
+
+.questionOne-responses {
+  font-size: 18px;
+}
+
+.questionTwo-container {
+  padding-top: 20px;
+}
+
+
+.questionTwo-container, .questionThree-container, .questionFour-container, .questionFive-container, .questionSix-container {
+  display: none;
+}
+
+.results_strong-mad, .results_strong-bad, .results_strong-sad, .results_the-cheat {
+  display:none;
+}
+
+#submit_last {
+  text-align: center;
+  height: 50%;
+  width: 30%;
+  color: white;
+  font-size:20px;
+  background-color:#06C;
+  border-bottom: 30px;
+}
+
+footer {
+  padding: 30px 0 30px 0;
+}

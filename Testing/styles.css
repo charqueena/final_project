@@ -1,0 +1,17 @@
+body {
+  background: #EBEBEB;
+
+}
+
+.results {
+
+  border:#000 1px dashed;
+  width: 100%;
+  height: 500px;
+}
+
+#button{
+font-size: 20px;
+color: blue;
+
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Testing Quiz Logic</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- insert custom css -->
+<link rel="stylesheet" href="styles.css">
+
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Chelsea+Market|Indie+Flower|Lato|Shadows+Into+Light|Ubuntu|Comfortaa" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+
+<script src="testing.js"></script>
+
+  </head>
+  <body>
+
+<header>
+  <h1>This is the header</h1>
+</header>
+<form name="quizForm" onsubmit="return submitAnswers()">
+
+
+<h3>1. What is your fave color?</h3>
+<input type="radio" name="q1" value="a" id="q1a">a. purple<br>
+<input type="radio" name="q1" value="b" id="q1b">b. red<br>
+<input type="radio" name="q1" value="c" id="q1c">c. grey<br>
+<input type="radio" name="q1" value="d" id="q1d">d. yellow<br>
+
+
+<h3>2. What's your name?</h3>
+<input type="radio" name="q2" value="a" id="q2a">a. SM<br>
+<input type="radio" name="q2" value="b" id="q2b">b. SB<br>
+<input type="radio" name="q2" value="c" id="q2c">c. SS<br>
+<input type="radio" name="q2" value="d" id="q2d">d. TC<br>
+
+<h3>3. Hobby?</h3>
+<input type="radio" name="q3" value="a" id="q3a">a. stomp<br>
+<input type="radio" name="q3" value="b" id="q3b">b. email<br>
+<input type="radio" name="q3" value="c" id="q3c">c. read<br>
+<input type="radio" name="q3" value="d" id="q3d">d. cheat<br>
+
+
+<input type="submit" value="Submit Answers">
+
+
+  </form>
+
+<div class="results">
+Results go here
+</div>
+
+<br>
+<footer></footer>
+
+  </body>
+</html>
