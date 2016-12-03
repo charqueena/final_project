@@ -14,7 +14,7 @@
   <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 
   <script src="app.js"></script>
-  <script src="quizlogic.js"></script>
+  <!-- <script src="quizlogic.js"></script> -->
 
 </head>
 <body>
@@ -325,6 +325,31 @@
                 <label><input name="q10" value="d"type="radio" name="optradio" id="q10d">Pikachu</label>
               </div>
 
+
+              <script>
+
+                $( "#q10a" ).on( "click", function() {
+                  $(".results_strong-mad").show();
+                    $("#q10a").removeClass("active");
+                });
+
+                $( "#q10b" ).on( "click", function() {
+                  $(".results_strong-bad").show();
+                    $("#q10b").removeClass("active");
+                });
+
+                $( "#q10c" ).on( "click", function() {
+                  $(".results_strong-sad").show();
+                    $("#q10c").removeClass("active");
+                });
+                $( "#q10d" ).on( "click", function() {
+                  $(".results_the-cheat").show();
+                    $("#q10d").removeClass("active");
+                });
+
+              </script>
+
+
             </div>
 
           </div>
@@ -345,25 +370,42 @@
 
   </div>
 
-  <div class="results_strong-mad">
-    You got Strong Mad!
-    pic
-    link
-  </div>
-  <div class="results_strong-bad">
-    You got Strong Bad!
-    pic
-    link
-  </div>
-  <div class="results_strong-sad">
-    You got Strong Sad :/
-    pic
-    link
-  </div>
-  <div class="results_the-cheat">
-    You got The Cheat!
-    pic
-    link
+  <div id="results-all" class="container">
+
+
+    <div class="results_strong-mad">
+<p><h2> You Got Strong Mad!</h2></p>
+      <a href="http://www.homestarrunner.com/vcr_sm.html">
+
+        <img src="images/strong_mad.jpg" class="wallpaper" id="strongMad"/>
+      </a>
+<br><br>
+    </div>
+    <div class="results_strong-bad">
+<p><h2> You Got Strong Bad!</h2></p>
+      <a href="#">
+
+        <img src="images/strong_bad.jpg" class="wallpaper" id="strongBad"/>
+      </a>
+<br><br>
+    </div>
+    <div class="results_strong-sad">
+<p><h2> You Got Strong Sad :/</h2></p>
+      <a href="#">
+
+        <img src="images/strong_sad.jpg" class="wallpaper" id="strongSad"/>
+      </a>
+<br><br>
+    </div>
+    <div class="results_the-cheat">
+<p><h2> You Got The Cheat!</h2></p>
+      <a href="#">
+
+        <img src="images/the_Cheat.jpg" class="wallpaper" id="theCheat"/>
+      </a>
+<br><br>
+    </div>
+
   </div>
   <br>
   <footer></footer>
