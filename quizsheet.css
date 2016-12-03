@@ -3,15 +3,12 @@ html{
 }
 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00eaf7+0,6ec65f+65,6ec65f+65,62c952+100 */
 body{
+  background-repeat: no-repeat;
   background: #00eaf7; /* Old browsers */
   background: -moz-linear-gradient(top,  #00eaf7 0%, #6ec65f 65%, #6ec65f 65%, #62c952 100%); /* FF3.6-15 */
   background: -webkit-linear-gradient(top,  #00eaf7 0%,#6ec65f 65%,#6ec65f 65%,#62c952 100%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to bottom,  #00eaf7 0%,#6ec65f 65%,#6ec65f 65%,#62c952 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00eaf7', endColorstr='#62c952',GradientType=0 ); /* IE6-9 */
-}
-
-.list-group {
-  color: red;
 }
 
 #free_country {
@@ -86,12 +83,15 @@ h2 {
 #strongMad, #strongBad, #strongSad, #theCheat {
   margin-top: 35px;
   border: #ABDEC4 5px dashed;
-
+  margin-left: auto;
+  margin-right: auto;
+/*centers images since img-responsive class turned to block element from default inline*/
 }
 
-
 #submit_last {
-  text-align: center;
+  display:none;
+  margin-left: auto;
+  margin-right: auto;
   height: 50%;
   width: 30%;
   color: white;

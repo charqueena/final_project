@@ -24,347 +24,279 @@
 
   <div class="container">
 
-    <form class="quiz" onsubmit="return submitAnswers()">
+    <form id="quiz">
 
-      <form class="question1">
+      <div class="questionOne-container">
 
-        <div class="questionOne-container">
+        <div class="list-group">
+          <a href="#" class="list-group-item active">
+            <h4 class="list-group-item-heading">1. What does your usual Friday night look like?</h4>
+          </a>
+        </div>
 
+        <div class="questionOne-responses">
+          <div class="radio">
+            <label><input value="a" class="strong-bad" type="radio" name="optradio" >Fight Club</label>
+          </div>
+          <div class="radio">
+            <label><input value="b" type="radio" name="optradio">Checking Emails</label>
+          </div>
+          <div class="radio">
+            <label><input value="c" type="radio" name="optradio">Poetry Slam</label>
+          </div>
+          <div class="radio">
+            <label><input value="d" type="radio" name="optradio">Rampaging</label>
+          </div>
+
+
+        </div>
+
+      </div>
+
+      <div class="questionTwo-container">
           <div class="list-group">
             <a href="#" class="list-group-item active">
-              <h4 class="list-group-item-heading">1. What does your usual Friday night look like?</h4>
+              <h4 class="list-group-item-heading">2. What is your favorite color?</h4>
             </a>
           </div>
 
-          <div class="questionOne-responses">
+          <div class="questionTwo-responses">
+
             <div class="radio">
-              <label><input value="a" class="strong-bad" type="radio" name="optradio" >Fight Club</label>
+              <label><input class="strong-bad" type="radio" name="optradio">Colooor?!</label>
             </div>
             <div class="radio">
-              <label><input value="b" type="radio" name="optradio">Checking Emails</label>
+              <label><input type="radio" name="optradio">Red</label>
             </div>
             <div class="radio">
-              <label><input value="c" type="radio" name="optradio">Poetry Slam</label>
+              <label><input type="radio" name="optradio">Grey</label>
             </div>
             <div class="radio">
-              <label><input value="d" type="radio" name="optradio">Rampaging</label>
+              <label><input type="radio" name="optradio">Meh</label>
             </div>
 
+          </div>
+      </div>
+
+        <div class="questionThree-container">
+
+          <div class="list-group">
+            <a href="#" class="list-group-item active">
+              <h4 class="list-group-item-heading">3. What is your favorite passtime?</h4>
+            </a>
+          </div>
+
+          <div class="questionThree-responses">
+
+            <div class="radio">
+              <label><input type="radio" name="optradio">Directing films</label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio">Drawing</label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio">Being mopey </label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio">Sabotage</label>
+            </div>
 
           </div>
 
         </div>
 
-      </form>
+        <div class="questionFour-container">
 
-      <form class="question2">
+          <div class="list-group">
+            <a href="#" class="list-group-item active">
+              <h4 class="list-group-item-heading">4. Who is always playing on your boom box?</h4>
+            </a>
+          </div>
 
-        <div class="questionTwo-container">
-          <form class="question2">
+          <div class="questionFour-responses">
 
-            <div class="list-group">
-              <a href="#" class="list-group-item active">
-                <h4 class="list-group-item-heading">2. What is your favorite color?</h4>
-              </a>
+            <div class="radio">
+              <label><input type="radio" name="optradio">Mariah Carey</label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio">Beastie Boys</label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio">Sloshy</label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio">Kanye</label>
             </div>
 
-            <div class="questionTwo-responses">
+          </div>
 
-              <div class="radio">
-                <label><input class="strong-bad" type="radio" name="optradio">Colooor?!</label>
-              </div>
-              <div class="radio">
-                <label><input type="radio" name="optradio">Red</label>
-              </div>
-              <div class="radio">
-                <label><input type="radio" name="optradio">Grey</label>
-              </div>
-              <div class="radio">
-                <label><input type="radio" name="optradio">Meh</label>
-              </div>
-
-            </div>
-          </form>
         </div>
 
+        <div class="questionFive-container">
 
+          <div class="list-group">
+            <a href="#" class="list-group-item active">
+              <h4 class="list-group-item-heading">5. What is your favorite food?</h4>
+            </a>
+          </div>
 
-        <form class="question3">
+          <div class="questionFive-responses">
 
-          <div class="questionThree-container">
-
-            <div class="list-group">
-              <a href="#" class="list-group-item active">
-                <h4 class="list-group-item-heading">3. What is your favorite passtime?</h4>
-              </a>
+            <div class="radio">
+              <label><input type="radio" name="optradio">FOOD!</label>
             </div>
-
-            <div class="questionThree-responses">
-
-              <div class="radio">
-                <label><input type="radio" name="optradio">Directing films</label>
-              </div>
-              <div class="radio">
-                <label><input type="radio" name="optradio">Drawing</label>
-              </div>
-              <div class="radio">
-                <label><input type="radio" name="optradio">Being mopey </label>
-              </div>
-              <div class="radio">
-                <label><input type="radio" name="optradio">Sabotage</label>
-              </div>
-
+            <div class="radio">
+              <label><input type="radio" name="optradio">Mustard crackers</label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio">Quinoa</label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio">Pizza</label>
             </div>
 
           </div>
 
-        </form>
-        <form class="question4">
+        </div>
 
-          <div class="questionFour-container">
+        <div class="questionSix-container">
 
-            <div class="list-group">
-              <a href="#" class="list-group-item active">
-                <h4 class="list-group-item-heading">4. Who is always playing on your boom box?</h4>
-              </a>
+          <div class="list-group">
+            <a href="#" class="list-group-item active">
+              <h4 class="list-group-item-heading">6.What are you wearing right now?</h4>
+            </a>
+          </div>
+
+          <div class="questionTwo-responses">
+
+            <div class="radio">
+              <label><input type="radio" name="optradio">A singlet</label>
             </div>
-
-            <div class="questionFour-responses">
-
-              <div class="radio">
-                <label><input type="radio" name="optradio">Mariah Carey</label>
-              </div>
-              <div class="radio">
-                <label><input type="radio" name="optradio">Beastie Boys</label>
-              </div>
-              <div class="radio">
-                <label><input type="radio" name="optradio">Sloshy</label>
-              </div>
-              <div class="radio">
-                <label><input type="radio" name="optradio">Kanye</label>
-              </div>
-
+            <div class="radio">
+              <label><input type="radio" name="optradio">A mask</label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio">All grey everything</label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio">Nothing</label>
             </div>
 
           </div>
 
-        </form>
-        <form class="question5">
+        </div>
 
-          <div class="questionFive-container">
+        <div class="questionSeven-container">
 
-            <div class="list-group">
-              <a href="#" class="list-group-item active">
-                <h4 class="list-group-item-heading">5. What is your favorite food?</h4>
-              </a>
+          <div class="list-group">
+            <a href="#" class="list-group-item active">
+              <h4 class="list-group-item-heading">7. Pick a number between one and ten.</h4>
+            </a>
+          </div>
+
+          <div class="questionSeven-responses">
+
+            <div class="radio">
+              <label><input type="radio" name="optradio">Sixty-five</label>
             </div>
-
-            <div class="questionFive-responses">
-
-              <div class="radio">
-                <label><input type="radio" name="optradio">FOOD!</label>
-              </div>
-              <div class="radio">
-                <label><input type="radio" name="optradio">Mustard crackers</label>
-              </div>
-              <div class="radio">
-                <label><input type="radio" name="optradio">Quinoa</label>
-              </div>
-              <div class="radio">
-                <label><input type="radio" name="optradio">Pizza</label>
-              </div>
-
+            <div class="radio">
+              <label><input type="radio" name="optradio">Three</label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio">Zero</label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio">Eleventy-K</label>
             </div>
 
           </div>
 
-        </form>
+        </div>
 
-        <form class="question6">
+        <div class="questionEight-container">
 
-          <div class="questionSix-container">
+          <div class="list-group">
+            <a href="#" class="list-group-item active">
+              <h4 class="list-group-item-heading">8. What is your favorite sport?</h4>
+            </a>
+          </div>
 
-            <div class="list-group">
-              <a href="#" class="list-group-item active">
-                <h4 class="list-group-item-heading">6.What are you wearing right now?</h4>
-              </a>
+          <div class="questionTwo-responses">
+
+            <div class="radio">
+              <label><input type="radio" name="optradio">All sports</label>
             </div>
-
-            <div class="questionTwo-responses">
-
-              <div class="radio">
-                <label><input type="radio" name="optradio">A singlet</label>
-              </div>
-              <div class="radio">
-                <label><input type="radio" name="optradio">A mask</label>
-              </div>
-              <div class="radio">
-                <label><input type="radio" name="optradio">All grey everything</label>
-              </div>
-              <div class="radio">
-                <label><input type="radio" name="optradio">Nothing</label>
-              </div>
-
+            <div class="radio">
+              <label><input type="radio" name="optradio">Badminton</label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio">Reading</label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio">Cheating</label>
             </div>
 
           </div>
 
-        </form>
-        <form class="question7">
+        </div>
 
-          <div class="questionSeven-container">
+        <div class="questionNine-container">
 
-            <div class="list-group">
-              <a href="#" class="list-group-item active">
-                <h4 class="list-group-item-heading">7. Pick a number between one and ten.</h4>
-              </a>
+          <div class="list-group">
+            <a href="#" class="list-group-item active">
+              <h4 class="list-group-item-heading">9. What food do you most resemble?</h4>
+            </a>
+          </div>
+
+          <div class="questionNine-responses">
+
+            <div class="radio">
+              <label><input type="radio" name="optradio">A loaf of bread</label>
             </div>
-
-            <div class="questionSeven-responses">
-
-              <div class="radio">
-                <label><input type="radio" name="optradio">Sixty-five</label>
-              </div>
-              <div class="radio">
-                <label><input type="radio" name="optradio">Three</label>
-              </div>
-              <div class="radio">
-                <label><input type="radio" name="optradio">Zero</label>
-              </div>
-              <div class="radio">
-                <label><input type="radio" name="optradio">Eleventy-K</label>
-              </div>
-
+            <div class="radio">
+              <label><input type="radio" name="optradio">An egg</label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio">A marshmallow</label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio">I'm not food!</label>
             </div>
 
           </div>
 
-        </form>
-        <form class="question8">
+        </div>
 
-          <div class="questionEight-container">
+        <div class="questionTen-container">
 
-            <div class="list-group">
-              <a href="#" class="list-group-item active">
-                <h4 class="list-group-item-heading">8. What is your favorite sport?</h4>
-              </a>
+          <div class="list-group">
+            <a href="#" class="list-group-item active">
+              <h4 class="list-group-item-heading">10. Who is your spirit animal?</h4>
+            </a>
+          </div>
+
+          <div class="questionTen-responses">
+
+            <div class="radio">
+              <label><input name="q10" value="a" type="radio" id="q10a">Dinosaur</label>
             </div>
-
-            <div class="questionTwo-responses">
-
-              <div class="radio">
-                <label><input type="radio" name="optradio">All sports</label>
-              </div>
-              <div class="radio">
-                <label><input type="radio" name="optradio">Badminton</label>
-              </div>
-              <div class="radio">
-                <label><input type="radio" name="optradio">Reading</label>
-              </div>
-              <div class="radio">
-                <label><input type="radio" name="optradio">Cheating</label>
-              </div>
-
+            <div class="radio">
+              <label><input name="q10" value="b" type="radio" id="q10b">Dragon</label>
+            </div>
+            <div class="radio">
+              <label><input name="q10" value="c"type="radio" id="q10c">Elephant</label>
+            </div>
+            <div class="radio">
+              <label><input name="q10" value="d"type="radio" id="q10d">Pikachu</label>
             </div>
 
           </div>
 
-        </form>
-        <form class="question9">
-
-          <div class="questionNine-container">
-
-            <div class="list-group">
-              <a href="#" class="list-group-item active">
-                <h4 class="list-group-item-heading">9. What food do you most resemble?</h4>
-              </a>
-            </div>
-
-            <div class="questionNine-responses">
-
-              <div class="radio">
-                <label><input type="radio" name="optradio">A loaf of bread</label>
-              </div>
-              <div class="radio">
-                <label><input type="radio" name="optradio">An egg</label>
-              </div>
-              <div class="radio">
-                <label><input type="radio" name="optradio">A marshmallow</label>
-              </div>
-              <div class="radio">
-                <label><input type="radio" name="optradio">I'm not food!</label>
-              </div>
-
-            </div>
-
-          </div>
-
-        </form>
-        <form class="question10">
-
-          <div class="questionTen-container">
-
-            <div class="list-group">
-              <a href="#" class="list-group-item active">
-                <h4 class="list-group-item-heading">10. Who is your spirit animal?</h4>
-              </a>
-            </div>
-
-            <div class="questionTen-responses">
-
-              <div class="radio">
-                <label><input name="q10" value="a" type="radio" name="optradio" id="q10a">Dinosaur</label>
-              </div>
-              <div class="radio">
-                <label><input name="q10" value="b" type="radio" name="optradio" id="q10b">Dragon</label>
-              </div>
-              <div class="radio">
-                <label><input name="q10" value="c"type="radio" name="optradio" id="q10c">Elephant</label>
-              </div>
-              <div class="radio">
-                <label><input name="q10" value="d"type="radio" name="optradio" id="q10d">Pikachu</label>
-              </div>
-
-
-              <script>
-
-                $( "#q10a" ).on( "click", function() {
-                  $(".results_strong-mad").show();
-                    $("#q10a").removeClass("active");
-                });
-
-                $( "#q10b" ).on( "click", function() {
-                  $(".results_strong-bad").show();
-                    $("#q10b").removeClass("active");
-                });
-
-                $( "#q10c" ).on( "click", function() {
-                  $(".results_strong-sad").show();
-                    $("#q10c").removeClass("active");
-                });
-                $( "#q10d" ).on( "click", function() {
-                  $(".results_the-cheat").show();
-                    $("#q10d").removeClass("active");
-                });
-
-              </script>
-
-
-            </div>
-
-          </div>
-
-
+        </div>
 
           <input type="submit" id="submit_last"  value="Submit">
 
-        </form>
 
-        <div style="text-align:center;">
-          <!-- <button id="submit">Submit</button> -->
-        </div>
-
-      </form>
     </form>   <!--quiz form container-->
 
 
@@ -374,36 +306,36 @@
 
 
     <div class="results_strong-mad">
-<p><h2> You Got Strong Mad!</h2></p>
+      <p><h2> You Got Strong Mad!</h2></p>
       <a href="http://www.homestarrunner.com/vcr_sm.html">
 
-        <img src="images/strong_mad.jpg" class="wallpaper" id="strongMad"/>
+        <img src="images/strong_mad.jpg" class="img-responsive" id="strongMad"/>
       </a>
-<br><br>
+      <br><br>
     </div>
     <div class="results_strong-bad">
-<p><h2> You Got Strong Bad!</h2></p>
+      <p><h2> You Got Strong Bad!</h2></p>
       <a href="#">
 
-        <img src="images/strong_bad.jpg" class="wallpaper" id="strongBad"/>
+        <img src="images/strong_bad.jpg" class="img-responsive" id="strongBad"/>
       </a>
-<br><br>
+      <br><br>
     </div>
     <div class="results_strong-sad">
-<p><h2> You Got Strong Sad :/</h2></p>
+      <p><h2> You Got Strong Sad :/</h2></p>
       <a href="#">
 
-        <img src="images/strong_sad.jpg" class="wallpaper" id="strongSad"/>
+        <img src="images/strong_sad.jpg" class="img-responsive" id="strongSad"/>
       </a>
-<br><br>
+      <br><br>
     </div>
     <div class="results_the-cheat">
-<p><h2> You Got The Cheat!</h2></p>
+      <p><h2> You Got The Cheat!</h2></p>
       <a href="#">
 
-        <img src="images/the_Cheat.jpg" class="wallpaper" id="theCheat"/>
+        <img src="images/the_Cheat.jpg" class="img-responsive" id="theCheat"/>
       </a>
-<br><br>
+      <br><br>
     </div>
 
   </div>
